@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const AboutSection = styled.section`
     width: 90%;
     height: max-content;
-    margin: 50px auto;
+    margin: 120px auto;
     display: flex;
     justify-content: space-between;
 `;
@@ -32,6 +32,22 @@ export const Information = styled.div`
         border-radius: 3px;
         font-size: 18px;
         letter-spacing: 1px;
+        cursor: pointer;
+    }
+`;
+
+export const LearnMore = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    button{
+        margin-right: 40px;
+    }
+    img{
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
     }
 `;
 

@@ -18,3 +18,9 @@ h1{
   font-family: 'still-time';
   text-transform: uppercase;
 }
+
+h3{
+  font-size: 33px;
+  margin-left: 5%;
+  letter-spacing: 1px;
+}

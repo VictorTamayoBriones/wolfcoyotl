@@ -15,6 +15,7 @@ export const Hero = styled.div`
     font-size: 70px;
     letter-spacing: 3px;
     text-shadow: 2px 3px 1px ${ theme.negroTraslucido };
+    overflow: hidden;
     h1{
         &:nth-child(odd){
             animation: title-animation-odd 12s 7s infinite linear;
