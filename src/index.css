@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'still-time';
+  src: url("./fonts/still-time.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'still-time';
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.5);
+}
