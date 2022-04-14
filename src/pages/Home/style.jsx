@@ -9,6 +9,7 @@ export const Hero = styled.div`
     justify-content: center;
     align-items: center;
     background-image: url(${imageHero});
+    background-attachment: fixed;
     background-size: cover;
     color: ${ theme.blanco };
     font-size: 70px;
