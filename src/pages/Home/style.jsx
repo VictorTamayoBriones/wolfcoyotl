@@ -18,10 +18,10 @@ export const Hero = styled.div`
     overflow: hidden;
     h1{
         &:nth-child(odd){
-            animation: title-animation-odd 12s 7s infinite linear;
+            animation: title-animation-odd 18s 9s infinite linear;
         }
         &:nth-child(even){
-            animation: title-animation-even 12s 7s infinite linear;
+            animation: title-animation-even 15s 9s infinite linear;
         }
     }
 
