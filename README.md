@@ -17,8 +17,8 @@ Esta es la pagina de inicio de la banda Wolfcoyotl
   
 ## Forma de ejecutar el proyecto:
 El proyecto se puede ejecutar de dos formas:
-* [Local]
-* [Dockerizarla]
+* Local
+* Dockerizarla
 
 ## Local
 
