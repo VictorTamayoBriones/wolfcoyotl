@@ -6,6 +6,12 @@ export const AboutSection = styled.section`
     margin: 120px auto;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width:700px){
+        width: 95%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
 `;
 
 export const Information = styled.div`
@@ -18,6 +24,7 @@ export const Information = styled.div`
         font-size: 100px;
         line-height: 100px;
         font-weight: 700;
+        margin-bottom: 20px;
     }
     p{
         line-height: 25px;
@@ -34,6 +41,14 @@ export const Information = styled.div`
         letter-spacing: 1px;
         cursor: pointer;
     }
+    @media (max-width: 700px){
+        width: 100%;
+        gap: 10px;
+        h2{
+            font-size: 70px;
+            line-height: 70px;
+        }
+    }
 `;
 
 export const LearnMore = styled.div`
@@ -41,6 +56,7 @@ export const LearnMore = styled.div`
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 0 0 30px 0;
     button{
         margin-right: 40px;
     }
@@ -60,5 +76,11 @@ export const Image = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    @media screen {
+        
+    }
+    @media (max-width: 700px){
+        width: 100%;
     }
 `;
