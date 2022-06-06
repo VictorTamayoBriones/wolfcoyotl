@@ -12,4 +12,9 @@ export const News = styled.section`
     span{
         color: #afafaf;
     }
+
+    @media (max-width: 700px){
+        width: 95%;
+        flex-direction: column;
+    }
 `;

@@ -5,6 +5,11 @@ export const Card = styled.div`
     width: 45%;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 700px){
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
 `;
 
 export const CardImage = styled.div`
