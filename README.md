@@ -13,6 +13,7 @@ Esta es la pagina de inicio de la banda Wolfcoyotl
 * [GitHub](https://github.com)
 * [React](https://reactjs.org)
 * [NodeJS](https://nodejs.org)
+* [Docker](https://www.docker.com)
   
 ## Forma de ejecutar el proyecto:
 El proyecto se puede ejecutar de dos formas:
