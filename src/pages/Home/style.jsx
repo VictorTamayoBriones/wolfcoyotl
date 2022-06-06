@@ -24,7 +24,7 @@ export const Hero = styled.div`
             animation: title-animation-even 15s 9s infinite linear;
         }
     }
-
+    
     @keyframes title-animation-odd {
         0%{
             transform: translateY(0px);
@@ -53,5 +53,27 @@ export const Hero = styled.div`
         75%{
             transform: translateY(0px);
         }
+    }
+
+    @media(max-width: 1000px){
+        font-size: 50px;
+        height: 45vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    @media(max-width: 800px){
+        align-items: flex-start;
+        background-size: 150%;
+        background-position-x: center;
+        font-size: 30px;
+    }
+
+    @media(max-width: 630px){
+        align-items: flex-start;
+        height: 50vh;
+        background-size: 200%;
+        background-position-x: center;
+        font-size: 30px;
     }
 `;
