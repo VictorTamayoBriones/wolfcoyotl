@@ -38,9 +38,15 @@ export const CardBody = styled.div`
 `;
 
 export const CardMusic = styled.div`
-    width: 200px;
-    height: 300px;
+    width: 30%;
+    height: max-content;
+    margin: 20px 0;
 
+    @media (max-width: 1111px){
+        width: 45%;
+        
+    }
+    
     @media (max-width: 440px){
         width: 100%;
         position: relative;

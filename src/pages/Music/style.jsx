@@ -5,10 +5,11 @@ export const Releases = styled.section`
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 50px;
 
     @media (max-width: 700px){
         width: 95%;
-        gap: 30px;
+        justify-content: space-between;
+        gap: 0;
     }
 `;
