@@ -6,4 +6,9 @@ export const Releases = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 700px){
+        width: 95%;
+        gap: 30px;
+    }
 `;

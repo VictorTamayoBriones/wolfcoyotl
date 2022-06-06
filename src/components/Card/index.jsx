@@ -40,11 +40,17 @@ export const CardBody = styled.div`
 export const CardMusic = styled.div`
     width: 200px;
     height: 300px;
+
+    @media (max-width: 440px){
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
 `;
 
 export const CardMusicImage = styled.div`
     width: 100%;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     border-radius: 5px;
     img{
@@ -62,5 +68,14 @@ export const CardMusicBody = styled.div`
     }
     span{
         color: ${ theme.gris };
+    }
+
+    @media (max-width: 440px){
+        position: absolute;
+        background: #00000090;
+        color: #fff;
+        bottom: 0;
+        padding: 5px 10px;
+        border-radius: 0 0 5px 5px;
     }
 `;
