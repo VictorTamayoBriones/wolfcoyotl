@@ -22,6 +22,7 @@ export const Navigation = styled.nav`
         letter-spacing: 1.5px;
     }
     ul{
+        width: 100%;
         display: flex;
         justify-content: center;
         list-style: none;
@@ -34,6 +35,13 @@ export const Navigation = styled.nav`
             &:hover{
                 text-decoration: underline ${ theme.blanco };
             }
+        }
+    }
+
+    @media (max-width: 600px){
+        ul{
+            gap: 0;
+            justify-content: space-between;
         }
     }
 `;
