@@ -5,8 +5,8 @@ Esta es la pagina de inicio de la banda Wolfcoyotl
 
 ## Esta desarrollada por:
 
-* [Victor Tamayo, Owner of the Repo]()
-* [Paul Vazquez, Owner of the Band]()
+* [Victor Tamayo, Owner of the Repo](https://github.com/VictorTamayoBriones/)
+* [Paul Vazquez, Owner of the Band](https://github.com/sr-vazkez)
 
 ## Tecnologias empleadas:
 
