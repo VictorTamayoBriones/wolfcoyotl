@@ -25,4 +25,9 @@ TBD
 
 ## Dockerizarla
 
-TBD
+### Construir imagen de Docker (Build)
+> docker build -t wolfcoyotl .
+
+### Levantar el contenedor de Docker (Run)
+> docker run -d --name wolfcoyotl -p 80:80 wolfcoyotl
+
